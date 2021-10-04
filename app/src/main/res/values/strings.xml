@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Robot Controller</string>
+    <string name="navigate">Navigate</string>
+    <string name="save">Save</string>
+    <string name="speed">Speed</string>
+    <string name="speed_format">%.1f</string>
+    <string name="battery">Battery</string>
+    <string name="battery_format">%d</string>
+    <string name="time_on">Time ON</string>
+    <string name="time_on_format">%d</string>
+    <string name="percent_symbol">%</string>
+    <string name="minute_short">min</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_extra_large">32dp</dimen>
+
+    <dimen name="toolbar_size">80dp</dimen>
+
+    <dimen name="robot_point_size">36dp</dimen>
+
+    <dimen name="barrier_circle_radius">16dp</dimen>
+    <dimen name="barrier_line_stroke_width">4dp</dimen>
+
+    <dimen name="card_corner_radius">4dp</dimen>
+    <!--
+    Because the window insets on round devices are larger than 15dp, this padding only applies
+    to square screens.
+    -->
+    <dimen name="box_inset_layout_padding">0dp</dimen>
+
+    <!--
+    This padding applies to both square and round screens. The total padding between the buttons
+    and the window insets is box_inset_layout_padding (above variable) on square screens and
+    inner_frame_layout_padding (below variable) on round screens.
+    -->
+    <dimen name="inner_frame_layout_padding">5dp</dimen>
+</resources>

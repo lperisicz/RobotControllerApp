@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButtonToggleGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/buttonToggleGroup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    app:checkedButton="@id/button1"
+    app:selectionRequired="true"
+    app:singleSelection="true">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button1"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/colorSurface"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        app:icon="@drawable/ic_location"
+        app:iconPadding="0dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button2"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/colorSurface"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        app:icon="@drawable/ic_visibility"
+        app:iconPadding="0dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button3"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/colorSurface"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        app:icon="@drawable/ic_design"
+        app:iconPadding="0dp" />
+
+</com.google.android.material.button.MaterialButtonToggleGroup>

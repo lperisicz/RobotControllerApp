@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary brand color. -->
+    <color name="color_primary">#FF6200EE</color>
+    <color name="color_primary_variant">#FF3700B3</color>
+    <color name="color_on_primary">@android:color/white</color>
+
+    <!-- Secondary brand color. -->
+    <color name="color_secondary">#FF6200EE</color>
+    <color name="color_secondary_variant">#FF3700B3</color>
+    <color name="color_on_secondary">@android:color/white</color>
+
+    <!-- Background brand color. -->
+    <color name="color_background">@android:color/white</color>
+    <color name="color_on_background">@android:color/black</color>
+    <color name="color_surface">@android:color/white</color>
+    <color name="color_on_surface">@android:color/black</color>
+
+    <!-- Error brand color. -->
+    <color name="color_error">#FFC51162</color>
+    <color name="color_on_error">@android:color/white</color>
+
+    <color name="color_map_background">#FFCCCCCC</color>
+</resources>
